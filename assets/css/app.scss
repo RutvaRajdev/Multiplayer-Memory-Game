@@ -1,0 +1,56 @@
+/* This file is for your main application css. */
+
+@import "bootstrap";
+
+.side { padding: 4ex; text-align: center; }
+h1 { text-align: center; }
+
+.tile{
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+  width: 100px;
+
+  border: 1px solid black;
+  background-color: gray;
+  vertical-align: middle;
+  color: white;
+  border-radius: 20px;
+  font-size: 40px;
+
+  &--tilecorrect {
+    background-color: black;
+  }
+
+  &--tileflipped {
+    background-color: #1b9891;
+  }
+
+}
+
+.tile span{
+	line-height:50px;
+
+}
+
+.reset-btn{
+  padding: 1rem 2rem;
+  background-color: rgb(242, 147, 64);
+  border-radius: 35px;
+  float: left;
+  margin-left: 488px;
+  color: ghostwhite;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.clicks-number{
+  padding: 0rem 10rem;
+  color: #1b9891;
+  font-size: 2rem;
+  float: right;
+}
+
+h1 {
+  color: rgb(242, 147, 64);
+}

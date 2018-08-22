@@ -1,0 +1,18 @@
+
+<div class="row">
+  <div class="col">
+    <h1>Join a Game</h1>
+    Enter Your name:
+    <p><input type="text" id="game-input"></p>
+    <a id="link"><button class="btn" id="game-button" onclick="myFunction()">Start Game</button></a>
+    <script>
+    function myFunction() {
+      var name = document.getElementById("game-input").value;
+      var strLink = "/games/" + name;
+      
+      document.getElementById("link").setAttribute("href",strLink);
+    }
+    </script>
+    <!--<a href="/games/ :game_name"><button class="btn" id="game-button">Start Game</button></a>-->
+  </div>
+</div>
