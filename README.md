@@ -1,5 +1,7 @@
 # Memory
 
+See the application live on: https://memoryelixir.rutvarajdev.com/ 
+
 ## Development Instructions
 
 Prerequisites:
